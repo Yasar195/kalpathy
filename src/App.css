@@ -1,0 +1,9 @@
+.heads{
+    font-family: Cinzel Decorative;
+    color: #9A031E;
+}
+.heads::first-letter {
+        font-size: 125%;
+        font-weight: bolder;
+        color: #FB8B24;
+      }

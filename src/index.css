@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+table, th, td {
+  height: 40px;
+  border-color: #9a031f00;
+  border-width: 1px;
+}
+table{
+  border-radius: 10px;
+}
+th{
+  background-color: #9A031E;
+  color: white;
+}
+tr:nth-child(odd) {background-color: #FEEEDE;}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFAF5;
+  font-family: Noto Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Language Accessibility Targetes 2 languages*/
+
+:lang(en) {
+  font-family: Anek Malayalam;
+}
+
+:lang(ml) {
+  font-family: Anek Malayalam;
+}
+
+:lang(ta) {
+  font-family: Anek Tamil;
+}
+
+/*Scrollbar customized*/
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9A031E;
+  border-radius: 100px;
+}
+
+/*Headings are styled (text only)*/
+.heads {
+  font-family: Cinzel Decorative;
+  color: #9A031E;
+  letter-spacing: 0.05em;
+}
+
+.heads::first-letter {
+  font-size: 125%;
+  font-weight: bolder;
+  color: #FB8B24;
+}
